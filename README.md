@@ -1,7 +1,7 @@
 # two_phase_AUC
 R code implementing estimators of Area Under the Curve(AUC) in two-phase studies
 
-The "AUC_code.R" file contains the main R function "compute_AUC()" that implements three estimators of AUC and reports the correesponding point estimates and the variances: 
+The "AUC_code.R" file contains the main R function "compute_AUC()" that implements three estimators of AUC and reports the corresponding point estimates and the variances: 
 
 (i) The full cohort estimator is based on the partial risk factor information coming from all the subjects in the cohort     (Phase I subjects). The Delong estimator of variance is implemented.
 
