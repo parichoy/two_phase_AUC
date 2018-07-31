@@ -315,7 +315,7 @@ if(!require(sas7bdat)){
 
 
 #Load the datasets
-load("~/cohort.data.txt")
+load("cohort.data.txt")
 load("case.control.data.txt")
 
 full.model.formula = ~X1 + X2 + X3 + X4 + factor(X5) + factor(X6) + factor(X7) + factor(X8)
