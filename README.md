@@ -1,7 +1,7 @@
 # two_phase_AUC
 R code implementing estimators of Area Under the Curve(AUC) in two-phase studies
 
-For running the example code, one needs to run the R script file "AUC_code.R". The code is designed to run in a way that the three files: "cohort.data.R", "case.control.data.R" and "AUC_code.R" are in the same local directory.
+For running the example code, one needs to run the R script file "AUC_code.R". The code is designed to run in a way that the three files: "cohort.data.txt", "case.control.data.txt" and "AUC_code.R" are in the same local directory.
 
 The "AUC_code.R" file contains the main R function "compute_AUC()" that implements three estimators of AUC and reports the corresponding point estimates and the variances: 
 
