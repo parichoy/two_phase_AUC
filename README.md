@@ -23,7 +23,7 @@ cohort.data: The dataset from Phase-I subjects with partial risk factor informat
                  study_followup - Length of followup (in years) of a subject,
                  study_exit_age - Age (in years) of exit of a subject from the study,
                  time_to_event - Time (in years) of onset of the disease, for censored subjects it is Inf,
-                 event - binary indicator of diseas coded as 1 for event and 0 for censored,
+                 event - binary indicator of disease coded as 1 for event and 0 for censored,
                  obs.riskscore - risk-score based on the risk factors X1,...,X6,
                  sampling.weights - selection probability of a Phase-I subject to Phase-II,
                  include - binary indicator of inclusion of a Phase-I subject to Phase-II
