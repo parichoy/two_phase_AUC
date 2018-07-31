@@ -32,7 +32,7 @@ case.control.data: The dataset from Phase-II subjects (subset of Phase I subject
 
 full.model.formula: Model formula for the specification of the full risk-score (i.e., linear predictor associated with the full set of risk factors). The Phase II subjects have information on the full set of risk-factors
 
-reduced.model.formula: Model formula for the specification of the partial risk-score (i.e., linear predictor associated with the partial set of risk factors). The Phase-I subjects not include in Phase II have information on the partial set of risk factors
+reduced.model.formula: Model formula for the specification of the partial risk-score (i.e., linear predictor associated with the partial set of risk factors). The Phase-I subjects not included in Phase II have information on the partial set of risk factors
 
 risk.factors.logRR: Log-relative risks associated with the risk-factors in the full model, known apriori from earlier studies and used to construct the risk scores
 
