@@ -12,20 +12,20 @@ The "AUC_code.R" file contains the main R function "compute_AUC()" that implemen
 The compute_AUC() function takes the following arguments:
 
 cohort.data: The dataset from Phase-I subjects with partial risk factor information. For illustrative purposes, I include one simulated dataset with columns: 
-                 id - Subject identifier
-                 X1 - Continuous risk-factor
-                 X2 - Continuous risk-factor
-                 X3 - Continuous risk-factor
-                 X4 - Continuous risk-factor
-                 X5 - Binary risk-factor
-                 X6 - Binary risk-factor
-                 study_entry_age - Age (in years) of entry of a subject to the study
-                 study_followup - Length of followup (in years) of a subject
-                 study_exit_age - Age (in years) of exit of a subject from the study
-                 time_to_event - Time (in years) of onset of the disease, for censored subjects it is Inf
-                 event - binary indicator of diseas coded as 1 for event and 0 for censored
-                 obs.riskscore - risk-score based on the risk factors X1,...,X6
-                 sampling.weights - selection probability of a Phase-I subject to Phase-II
+                 id - Subject identifier,
+                 X1 - Continuous risk-factor,
+                 X2 - Continuous risk-factor,
+                 X3 - Continuous risk-factor,
+                 X4 - Continuous risk-factor,
+                 X5 - Binary risk-factor,
+                 X6 - Binary risk-factor,
+                 study_entry_age - Age (in years) of entry of a subject to the study,
+                 study_followup - Length of followup (in years) of a subject,
+                 study_exit_age - Age (in years) of exit of a subject from the study,
+                 time_to_event - Time (in years) of onset of the disease, for censored subjects it is Inf,
+                 event - binary indicator of diseas coded as 1 for event and 0 for censored,
+                 obs.riskscore - risk-score based on the risk factors X1,...,X6,
+                 sampling.weights - selection probability of a Phase-I subject to Phase-II,
                  include - binary indicator of inclusion of a Phase-I subject to Phase-II
               
 case.control.data: The dataset from Phase-II subjects (subset of Phase I subjects included in Phase II) with complete risk factor information. For illustrative purposes, I include one simulated dataset. In addition to the columns described above,it includes two additional binary risk-factors X7 and X8. Only the Phase-II subjects have information on X7 and X8.
